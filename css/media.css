@@ -1,0 +1,757 @@
+/* Extra small screens */
+/* hint : smart watches */
+@media all and (width <=640px) {
+    /* code excute when sreen extra small */
+
+    .nav-links ul {
+        display: none;
+    }
+
+    .list-icon {
+        display: block;
+    }
+
+    .home {
+
+        padding-top: 200px;
+        /* margin-top: 100px; */
+
+    }
+
+    .home .container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        /* height: 100vh; */
+        margin-bottom: 150px;
+
+    }
+
+    .home-content {
+        order: 2;
+        width: 100%;
+
+        /* background-color: brown; */
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .home h2 {
+        width: 100%;
+    }
+
+    .home-img {
+        order: 1;
+        width: 80%;
+        justify-content: center;
+        align-items: end;
+
+
+
+    }
+
+    .button-content {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+
+    }
+
+    .button-content .btn {
+
+        width: 60%;
+    }
+
+    .home .button-content a.video-btn {
+
+        width: 80%;
+        display: flex;
+        padding: 10px;
+    }
+   
+    
+    .button-content .video {
+        width: 80%;
+        /* background-color: aqua; */
+
+    
+    }
+
+
+
+
+    .chefs-cards{
+        padding: 0;
+    }
+    .card {
+            display: flex;
+            flex-direction: row;
+        width: 100%;
+        padding: 20px;
+        
+    }
+
+
+    .gallery-photos {
+        columns: 400px;
+    }
+
+    iframe {
+
+        width: 100%;
+        height: 400px;
+        
+
+
+
+    }
+
+    .details {
+        display: flex;
+        flex-direction: column;
+       
+
+
+    }
+
+    .address,
+    .email,
+    .phone,
+    .opening-hours {
+        width: 100%;
+
+    }
+
+   
+
+    .inputs .info .input-group {
+        display: flex;
+        flex-direction: column;
+
+
+    }
+
+    .inputs #name,
+    #email {
+        width: 100%;
+
+    }
+
+    .footer .container {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .footer .about {
+        width: 100%;
+    }
+
+    .Newsletter {
+        width: 100%;
+    }
+
+    .quick-links .list ul {
+
+        padding-left: 0;
+    }
+
+    .contact-details {
+        padding: 0;
+
+    }
+
+    .contact-details h3 {
+        padding: 17px;
+    }
+
+    .xs-100 {
+        width: 100%;
+    }
+
+    .xs-70 {
+        width: 70%;
+    }
+
+    .xs-50 {
+        width: 50%;
+    }
+
+    .xs-25 {
+        width: 25%;
+    }
+
+    .xs-16 {
+        width: 16%;
+    }
+
+}
+
+
+/* small screens */
+/* hint : iphone 12 */
+@media all and (640px < width <=768px) {
+    /* code excute when sreen small */
+
+    .nav-links ul {
+        display: none;
+    }
+
+    .list-icon {
+        display: block;
+    }
+
+    .home {
+
+        padding-top: 170px;
+        /* margin-top: 100px; */
+
+    }
+
+    .home .container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        /* height: 100vh; */
+        margin-bottom: 150px;
+
+    }
+
+    .home-content {
+        order: 2;
+        width: 100%;
+        /* background-color: brown; */
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .home-img {
+        order: 1;
+        width: 50%;
+        justify-content: center;
+        align-items: end;
+
+
+
+    }
+
+    .button-content {
+        width: 50%;
+
+
+    }
+
+    .button-content .btn {
+
+        width: 50%;
+    }
+
+    .home .button-content a.video-btn {
+
+        width: 100%;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        padding: 20px;
+    }
+
+
+    .gallery-photos {
+        columns: 400px;
+    }
+
+    iframe {
+
+        width: 100%;
+        height: 400px;
+        padding: 50px;
+
+
+
+    }
+
+    .details {
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+
+
+    }
+
+    .address,
+    .email,
+    .phone,
+    .opening-hours {
+        width: 100%;
+
+    }
+
+    .inputs .info {
+        margin: auto;
+        width: 85%;
+
+    }
+
+    .inputs .info .input-group {
+        display: flex;
+        flex-direction: column;
+
+
+    }
+
+    .inputs #name,
+    #email {
+        width: 100%;
+
+    }
+
+    .footer .container {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .footer .about {
+        width: 100%;
+    }
+
+    .Newsletter {
+        width: 100%;
+    }
+
+    .quick-links .list ul {
+
+        padding-left: 0;
+    }
+
+    .contact-details {
+        padding: 0;
+
+    }
+
+    .contact-details h3 {
+        padding: 17px;
+    }
+
+
+    .sm-640 {
+        width: 640px;
+    }
+
+    .sm-100 {
+        width: 100%;
+
+    }
+
+    .sm-70 {
+        width: 70%;
+    }
+
+    .sm-50 {
+        width: 50%;
+    }
+
+    .sm-45 {
+        width: 45%;
+    }
+
+    .sm-25 {
+        width: 25%;
+    }
+
+    .sm-16 {
+        width: 16%;
+    }
+
+}
+
+
+/* med screens */
+/* hint : iPad */
+@media all and (768px< width <=1024px) {
+    /* code excute when sreen med */
+
+
+
+
+    .nav .container{
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .nav-links ul {
+        display: none;
+    }
+
+    .list-icon {
+        display: block;
+    }
+
+    .home {
+
+        padding-top: 170px;
+        /* margin-top: 100px; */
+
+    }
+
+    .home .container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        /* height: 100vh; */
+        margin-bottom: 150px;
+
+    }
+
+    .home-content {
+        order: 2;
+        width: 100%;
+        /* background-color: brown; */
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .home-img {
+        order: 1;
+        width: 50%;
+        justify-content: center;
+        align-items: end;
+
+
+
+    }
+
+    .button-content {
+        width: 50%;
+
+
+    }
+
+    .button-content .btn {
+
+        width: 50%;
+    }
+
+    .home .button-content a.video-btn {
+
+        width: 100%;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        padding: 20px;
+    }
+
+    .gallery-photos {
+        columns: 400px;
+       
+    }
+    .gallery-photos picture{
+        width: 80%;
+        margin: auto;
+        
+    }
+    iframe {
+
+        width: 81%;
+        height: 400px;
+        margin-left: 70px;
+         
+
+
+
+    }
+
+    .details {
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+
+
+    }
+
+    .address,
+    .email,
+    .phone,
+    .opening-hours {
+        width: 90%;
+        margin: auto;
+
+    }
+
+    .inputs .info {
+        margin: auto;
+        width: 85%;
+
+    }
+
+    .inputs .info .input-group {
+        display: flex;
+        flex-direction: column;
+
+
+    }
+
+    .inputs #name,
+    #email {
+        width: 100%;
+
+    }
+
+    .footer .container {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .footer .about {
+        width: 100%;
+    }
+
+    .Newsletter {
+        width: 100%;
+    }
+
+    .quick-links .list ul {
+
+        padding-left: 0;
+    }
+
+    .contact-details {
+        padding: 0;
+
+    }
+
+    .contact-details h3 {
+        padding: 17px;
+    }
+
+
+
+
+
+    .med-768 {
+        width: 768px;
+    }
+
+    .med-100 {
+        width: 100%;
+    }
+
+    .med-70 {
+        width: 70%;
+    }
+
+    .med-50 {
+        width: 50%;
+    }
+
+    .med-25 {
+        width: 25%;
+    }
+
+    .med-16 {
+        width: 16%;
+    }
+
+
+}
+
+/* large screens */
+/* hint : laptop 13 inch */
+@media all and (1024px< width <=1280px) {
+    /* code excute when sreen lg */
+
+    .home{
+        padding: 100px;
+      }
+ 
+
+    .home h2 {
+        
+        width: 100%;
+    }
+
+
+    .button-content {
+        width: 100%;
+        
+
+
+    }
+
+    .button-content .btn {
+
+        width: 50%;
+    }
+
+    .home .button-content a.video-btn {
+
+        width: 100%;
+    }
+  
+   .chefs .container{
+    width: 100%;
+   }
+    .card{
+        width: 33.333%;
+    }
+
+    
+    
+
+
+
+
+
+
+
+    .lg-1024 {
+        width: 1024px;
+    }
+
+    .lg-100 {
+        width: 100%;
+    }
+
+    .lg-70 {
+        width: 70%;
+    }
+
+    .lg-50 {
+        width: 50%;
+    }
+
+    .lg-25 {
+        width: 25%;
+    }
+
+    .lg-16 {
+        width: 16%;
+    }
+
+
+}
+
+/* extra-large screens */
+/* hint : laptop 16 inch */
+@media all and (1280px< width <=1536px) {
+    /* code excute when sreen x-lg */
+
+
+    .home{
+        padding: 100px;
+      }
+   .container{
+    width: 100%
+   }
+
+   .gallery-photos {
+
+    columns: 400px;
+
+
+}
+
+
+
+
+
+
+    .xlg-1280 {
+        width: 1280px;
+    }
+
+    .xlg-100 {
+        width: 100%;
+    }
+
+    .xlg-70 {
+        width: 70%;
+    }
+
+    .xlg-50 {
+        width: 50%;
+    }
+
+    .xlg-25 {
+        width: 25%;
+    }
+
+    .xlg-16 {
+        width: 16%;
+    }
+
+
+}
+
+
+/* extra-large screens */
+/* hint : smart iv inch */
+@media all and (width > 1536px) {
+    /* code excute when sreen 2x-lg */
+
+    .container{
+        width: 100%
+       }
+
+      .home{
+        padding: 100px;
+      }
+    
+       .gallery-photos {
+    
+        columns: 500px;
+    
+    
+    }
+
+    .xxlg-1536 {
+        width: 1536px;
+    }
+
+    .xxlg-100 {
+        width: 100%;
+    }
+
+    .xxlg-70 {
+        width: 70%;
+    }
+
+    .xxlg-50 {
+        width: 50%;
+    }
+
+    .xxlg-25 {
+        width: 25%;
+    }
+
+    .xxlg-16 {
+        width: 16%;
+    }
+
+}
